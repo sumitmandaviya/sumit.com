@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    /* background-color: black; */
+    color: white;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    background-image: url(img/banner.png);
+    color: black;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.head .heding{
+    margin-left: 2rem;
+}
+.menu ul{
+    
+    display: flex;
+    margin-left: 2rem;  
+}
+
+.menu li{
+    padding-right: 3rem;
+}
+.menu ul li{
+    list-style-type: none;
+}
+.menu li:hover{
+    border-bottom: 1rem solid rgba(141, 31, 104, 0.338);
+    transition: ease-in-out;   
+}
+
+
+
+/* medai Query */
+@media only screen and (max-width: 420px) {
+  
+    .head{
+        width: 100%;
+        height: 140px;
+        background-image: url(img/banner.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 4.5rem;
+        font-weight: bold;
+        position: fixed;
+        background-attachment: fixed;
+    }
+    .fa-bars {
+        font-weight: 900;
+        margin-left: 44rem;
+    }
+    .head .menu{
+        display: none;
+    }
+}
+
+/* bodypart */
+.bodyp{
+    background-image: url(img/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 2500px;
+    width: 404%;
+    background-attachment: fixed;
+}
+.fist{  
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content:space-around;
+}
+.a{
+    font-size: 5rem;
+    font-weight: bold;
+    margin-top: 30rem;
+}
+.b button{
+  background-color: aqua;
+  width: 30rem;
+  border: none;
+  height: 6rem;
+  font-size: 3rem;
+  margin-top: 30rem;
+}
+
+
+/* <!-- body part --> */
+
+
+    .ccc{
+        height: 6400px;
+        width: 404%;  
+        /* background-color: #ECA7A6; */
+        background-image: url(img/B\ img.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 5rem;
+        align-items: center;
+        justify-content: center;
+             
+    }
+
+/* 1 */
+    .box1{
+        border: 5px solid black;
+        height: 700px;
+        width: 1000px;
+        background-image: url(audio/bahuImag.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+  
+    .boxa1 p audio{
+        width: 40rem;
+        transform: scale(1.8);
+
+    }
+    /* 2 */
+    .box2{
+        border: 5px solid black;
+        height: 700px;
+        width: 1000px;
+        background-image: url(audio/gader.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+  
+    .boxa2 p audio{
+        width: 40rem;
+        transform: scale(1.8);
+
+    }
+    /* 3 */
+    .box3{
+        border: 5px solid black;
+        height: 700px;
+        width: 1000px;
+        background-image: url(audio/animal.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+  
+    .boxa3 p audio{
+        width: 40rem;
+        transform: scale(1.8);
+
+    }
+    /* 4 */
+    .box4{
+        border: 5px solid black;
+        height: 700px;
+        width: 1000px;
+        background-image: url(audio/o\ mari.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+  
+    .boxa4 p audio{
+        width: 40rem;
+        transform: scale(1.8);
+
+    }
+    /* 5 */
+    .box5{
+        border: 5px solid black;
+        height: 700px;
+        width: 1000px;
+        background-image: url(audio/aaa.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+  
+    .boxa5 p audio{
+        width: 40rem;
+        transform: scale(1.8);
+
+    }
+    /* 6 */
+    .box6{
+        border: 5px solid black;
+        height: 700px;
+        width: 1000px;
+        background-image: url(audio/bbb.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+  
+    .boxa6 p audio{
+        width: 40rem;
+        transform: scale(1.8);
+
+    }
+
+    #vi{
+        height: 750px;
+    }
+
+    /* lastpart */
+    .last{
+        height: 3200px;
+        width: 404%;  
+        background: #bde1df;
+    }
+
+.v{
+    font-size: 10rem;
+    color: black;
+    margin-left: 10rem;
+    font-weight: bold;
+
+}
+.lt img{
+    margin-top: 13rem;
+    margin-left: 9rem;
+    height: 794px;
+}
+
+#pp{
+    color: black;
+    font-size: 5rem;
+    margin-top: 15rem;
+    font-variant: small-caps;
+    margin-left: 4rem;
+}
+
+#bb{
+    margin-left: 9rem;
+    height: 10rem;
+    width: 38rem;
+    background-color: #ECA7A6;
+    color: black;
+    font-size: 3.5rem;
+    margin-top: 6rem;
+    text-align: center;
+    border: none;
+}
+
+.footer{
+    height: 2000px;
+    width: 404%;
+    background-color:#ECA7A6;
+
+}
+.xx{
+    font-size: 12rem;
+    font-weight: bold;
+    margin-left: 5rem;
+    margin-top: 20rem;
+    
+}
+
+.icon{
+    font-size: 25rem;
+    margin-top: 10rem;
+}
+
+.z{
+    border: 2px solid;
+    height: 100px;
+    color: black;
+    font-size: 4rem;
+    margin-top: 114rem;
+    margin-right: 45rem;
+}
+
+    
+
+
+    
+

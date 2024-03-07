@@ -1,0 +1,409 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* navbar */
+.navbar{
+    height: 80px;
+    background-color:#270082;
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+  
+}
+
+.navbar .n{
+    font-size: 3rem;
+    margin-left: 2rem;
+    font-weight: bold;
+}
+
+.navbar .nav ul li {
+    display: inline;
+}
+.navbar .nav  ul li a{
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+}
+.navbar .nav ul li{
+    list-style-type: none;
+}
+.navbar .nav ul li a:hover{
+    text-decoration-line: underline;
+}
+.navbar .nav ul li a{
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+.mbar{
+    display: none;
+}
+.xxx{
+    display: none;
+}
+/* main image */
+.mimg{
+    height: 700px;
+    background-image: url(img/hero_image.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+#p1{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#p2{
+
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#p3{
+    align-items: center;
+    text-align: center;
+    font-size: 1.1rem;
+    /* opacity: 0.7; */
+    font-family: "Roboto", sans-serif;
+    
+}
+ /* main img 2 and text  */
+ .mimg2{
+   
+    height: 700px;
+    background-color:#281154;
+    color: white;
+   text-align: center;
+ }
+ #p4{
+    font-size: 1.7rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ #p5{
+    font-size: 1.1rem;
+    font-weight: bold;
+   
+    /* opacity: 0.7; */
+    font-family: "Roboto", sans-serif;
+ }
+ #p6 button{
+    background-color: red;
+    color: white;
+    border: none;
+    height: 2.4rem;
+    width: 12rem;
+ }
+ #p6 button:hover{
+    background-color: rgb(189, 8, 8);
+    cursor: pointer;
+ }
+
+/* 50 % img */
+
+.hero{ 
+    width: 70%;
+    margin: auto;
+    height: 650px;
+    margin-top: -20rem;
+  
+}
+
+/* 50% bad part - 1 */
+.part1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+    margin-top: 7rem;
+}
+#p8{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4rem;
+}
+#p9{
+    /* opacity: 0.7; */
+    font-family: "Roboto", sans-serif;
+ 
+}
+#p10 button{
+    background-color: #270082;
+    color: white;
+    width: 7rem;
+    height: 2rem;
+    border: none;
+}
+#p11{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.mic{
+    background-image: url(img/video.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 5rem;
+    flex-direction: column;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 850px;
+}
+#p12{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4rem;
+}
+#p13{
+    /* opacity: 0.7; */
+    font-family: "Roboto", sans-serif;
+}
+
+/* <!-- Gift card --> */
+#p16{
+    display: none;
+}
+.giftcard{
+    height: 400px;
+    margin-top: 2rem;
+}
+.giftcardtext{
+    width: 55%;
+    float: right;
+    margin-top: -250px;
+}
+.giftcardtext button{
+    margin-top: 1rem;
+    height: 2rem;
+    width: 7rem;
+    background-color: #270082;
+    color: white;
+    border: none;
+}
+#p14{
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+/* footer part */
+.footer {
+    height: 250px;
+    background-color: #1B0058;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;  
+}
+.footer .D li{
+    list-style-type: none;
+}
+
+.footer .D p{
+    font-weight: bold;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    text-decoration:underline 2px;
+}
+/* copyright */
+.lasC{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: sans-serif;
+    background-color: #270082;
+    height: 60px;
+}
+
+
+
+
+/* Medai Query */
+@media only screen and (max-width: 400px) {
+
+    .navbar .n{
+        font-size: 2rem;
+        margin-left: 2rem;
+        font-weight: bold;
+    }
+    .navbar .nav{
+        display: none;    
+    }
+    .navbar{
+        height: 60px;
+    }
+
+    .mbar{
+        display: block;
+        font-size: 1.2rem;
+        margin-right: 1.6rem;
+      
+    }
+
+    .xxx {
+        /* display: none; */
+   
+    }
+    .xxx a{
+       color: rgb(255, 255, 255);
+       text-decoration: none;
+       
+    }
+    .xxx a:hover{
+        text-decoration-line: underline;
+    }
+    .xxx li{
+        list-style-type: none;
+        background-color:#270082;
+        padding: 0.4rem;
+
+    }
+    .xxx {
+        margin-top: 8rem;
+    }
+
+    .mbar:hover .xxx{
+        display: block;
+    }
+    /* main image */
+    .mimg{
+        height: 510px;
+    }
+    #p1{
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    #p2{
+        font-size: 1.3rem;
+        font-variant: small-caps;
+        font-weight: bold;
+        align-items: center;
+        text-align: center;
+    }
+    #p3{
+        align-items: center;
+        text-align: center;
+        font-size: 1.1rem;
+        /* opacity: 0.7; */
+        font-family: "Roboto", sans-serif;
+    }
+/* <!-- 50 % img--> */
+
+.hero img{
+    width: 120%;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mimg2{
+   
+    height: 610px;
+    background-color:#281154;
+    color: white;
+   text-align: center;
+ }
+
+ .part1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+    margin-top: -5rem;
+}
+#p11{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+}
+#p11 img {
+    width: 269px;
+    height: 182px;
+    margin-top: 6rem;
+    margin-right: 31px;
+}
+
+.mic{
+    margin-top: 3rem;
+    height: 800px;
+}
+
+/* <!-- Gift card --> */
+#p15{
+    display: none;
+}
+#p16{
+    display: none;
+}
+.giftimg img{
+    width: 127px;
+    height: 97px;
+}
+.giftcard{
+    height: 400px;
+    margin-top: 4rem;
+}
+.giftcardtext{
+    width: 55%;
+    float: right;
+    margin-top: -250px;
+    margin-top: -100px;
+}
+/* <!-- footrt part --> */
+.footer {
+    height: 500px;
+    background-color: #1B0058;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;  
+    flex-wrap: wrap;
+    text-align:center;
+    margin-top: -150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+  
